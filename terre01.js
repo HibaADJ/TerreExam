@@ -1,4 +1,6 @@
-  /* */
+  /*a program that displays its file name.
+  input : filepath 
+  output : filename */
 
   let filePath = `Filename is ${__filename}`
   let fileName = " ";
