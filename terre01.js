@@ -6,10 +6,10 @@
   let fileName = " ";
   for (i=filePath.length; i>0; i--){
   if (filePath.charAt(i)=="/"){
-  break;
+    break;
   }
   else{
-  fileName = filePath.charAt(i).concat(fileName);
+    fileName = filePath.charAt(i).concat(fileName);
   }
   }
   console.log(fileName);
